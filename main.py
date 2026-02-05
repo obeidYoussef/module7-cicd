@@ -25,7 +25,7 @@ def root():
 def root():
     return {"status": "health is good"}
 
-
+print("Test Workflow")
 @app.post("/name")
 def get_name(name: str):
     if not name:
